@@ -43,6 +43,23 @@
                 <string>instagram</string>
             </array>
         </config-file>
+                <config-file target="*-Info.plist" parent="CFBundleDocumentTypes">
+            	
+    <dict>
+	        <key>CFBundleTypeName</key>
+	        <string>PDF</string>
+	        <key>LSHandlerRank</key>
+	        <string>Alternate</string>
+	        <key>LSItemContentTypes</key>
+	        <array>
+	            <string>com.adobe.pdf</string>
+	        </array>
+	    </dict>
+	
+
+
+
+        </config-file>
         
         
         
