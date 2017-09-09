@@ -44,7 +44,8 @@
             </array>
         </config-file>
                 <config-file target="*-Info.plist" parent="CFBundleDocumentTypes">
-            	
+ 
+			<array>
     <dict>
 	        <key>CFBundleTypeName</key>
 	        <string>PDF</string>
@@ -55,7 +56,7 @@
 	            <string>com.adobe.pdf</string>
 	        </array>
 	    </dict>
-	
+			</array>
 
 
 
