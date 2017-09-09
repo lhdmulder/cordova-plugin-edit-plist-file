@@ -51,7 +51,7 @@
 	        <string>PDF</string>
 	    <key>CFBundleTypeIconFiles</key>
 	    <array>
-		    <string>pdf.icns</string>   
+		    <string>pdf.png</string>   
 	    </array>
 	    <key>CFBundleTypeRole</key>
 	    <string>Viewer</string>
