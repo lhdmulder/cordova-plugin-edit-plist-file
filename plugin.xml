@@ -49,6 +49,12 @@
     <dict>
 	        <key>CFBundleTypeName</key>
 	        <string>PDF</string>
+	    <key>CFBundleTypeIconFiles</key>
+	    <array>
+		    <string>pdf.icns</string>   
+	    </array>
+	    <key>CFBundleTypeRole</key>
+	    <string>Viewer</string>
 	        <key>LSHandlerRank</key>
 	        <string>Alternate</string>
 	        <key>LSItemContentTypes</key>
