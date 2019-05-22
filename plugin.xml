@@ -43,6 +43,19 @@
                 <string>instagram</string>
             </array>
         </config-file>
+	    
+	    <config-file target="*-Info.plist" parent="LSSupportsOpeningDocumentsInPlace">
+            <string>
+                Yes
+            </string>
+        </config-file>
+	    
+	    <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+            <string>
+                This application may use your location to assist with requests for care assistance
+            </string>
+        </config-file>
+	    
                 <config-file target="*-Info.plist" parent="CFBundleDocumentTypes">
  
 			<array>
