@@ -52,6 +52,10 @@
             <string>We access your location to show it to your contact when making care requests</string>
         </config-file>
 	    
+	    <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
+            <string>We access your location to show it to your contact when making care requests</string>
+        </config-file>
+	    
 	        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
             <string>We access your camera to allow you to make pictures as you requested. Your pictures can be seen by your contacts created in this app.</string>
         </config-file>
