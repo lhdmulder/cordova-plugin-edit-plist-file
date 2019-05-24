@@ -49,7 +49,15 @@
         </config-file>
 	    
 	    <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-            <string>We access your location to improve your experience</string>
+            <string>We access your location to show it to your contact when making care requests</string>
+        </config-file>
+	    
+	        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+            <string>We access your camera to allow you to make pictures as you requested. Your pictures can be seen by your contacts created in this app.</string>
+        </config-file>
+	    
+	     <config-file target="*-Info.plist" parent="NSCalendarsUsageDescription">
+            <string>We access your calendar to create events reflecting the events scheduled in this app.</string>
         </config-file>
 	    
                 <config-file target="*-Info.plist" parent="CFBundleDocumentTypes">
